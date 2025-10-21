@@ -21,4 +21,13 @@ Hostel Management System is a web-based application designed to simplify and aut
 <img width="1005" height="420" alt="Screenshot 2025-10-21 202533" src="https://github.com/user-attachments/assets/711e629a-fb01-40a3-b961-479b6a2ceb1f" />
 <img width="633" height="255" alt="Screenshot 2025-10-21 202553" src="https://github.com/user-attachments/assets/d767aed6-ab9e-474d-b92b-80e4319e25eb" />
 <img width="641" height="245" alt="Screenshot 2025-10-21 202609" src="https://github.com/user-attachments/assets/475a05d1-dec8-4e65-ad3c-92acbd6ad6f8" />
+<img width="1891" height="980" alt="Screenshot 2025-10-21 202826" src="https://github.com/user-attachments/assets/43331f19-1c3f-4cc3-989c-bef8d56061af" />
+<img width="1899" height="955" alt="Screenshot 2025-10-21 202853" src="https://github.com/user-attachments/assets/22df2bc9-fb04-4eb8-aa7c-41411bec48ce" />
+<img width="661" height="579" alt="Screenshot 2025-10-21 202954" src="https://github.com/user-attachments/assets/eff16584-d160-4f54-a363-6a7ad008c552" />
+<img width="1912" height="970" alt="Screenshot 2025-10-21 203155" src="https://github.com/user-attachments/assets/d09a4513-94a4-43ad-a47c-128e2120a9c4" />
+<img width="1897" height="934" alt="Screenshot 2025-10-21 203229" src="https://github.com/user-attachments/assets/81014636-a700-4998-9189-102d5a40977e" />
+<img width="1901" height="954" alt="Screenshot 2025-10-21 203257" src="https://github.com/user-attachments/assets/8b9264cd-1c28-4042-a228-3402be514efe" />
+<img width="1905" height="948" alt="Screenshot 2025-10-21 203659" src="https://github.com/user-attachments/assets/71ec3661-fc3e-4a91-b5a1-e2d337ff4ec5" />
+<img width="1893" height="956" alt="Screenshot 2025-10-21 203711" src="https://github.com/user-attachments/assets/99340af8-d49e-4873-a124-031cd67f4c6e" />
+
 
