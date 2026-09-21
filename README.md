@@ -30,4 +30,131 @@ Hostel Management System is a web-based application designed to simplify and aut
 <img width="1905" height="948" alt="Screenshot 2025-10-21 203659" src="https://github.com/user-attachments/assets/71ec3661-fc3e-4a91-b5a1-e2d337ff4ec5" />
 <img width="1893" height="956" alt="Screenshot 2025-10-21 203711" src="https://github.com/user-attachments/assets/99340af8-d49e-4873-a124-031cd67f4c6e" />
 
+Project overview
 
+Project Name: Hostel Management System
+Backend: Django / Python
+Database: SQLite3
+Frontend: HTML, CSS, JavaScript, Bootstrap 5
+Authentication: Custom session-based login/signup
+Admin: Django Admin Panel
+File Upload: Django Media/ImageField
+Icons/UI: Font Awesome, Boxicons
+Fonts: Google Poppins
+Architecture: Django MVT (Model–View–Template)
+
+Main features found
+User registration/signup
+User login/logout
+Session-based authentication
+Hostel home page
+Floor selection
+Room selection
+Single/Two/Three/Four-sharing rooms
+Bed selection
+Hostel room booking
+Booking confirmation form
+Student profile management
+Profile image upload
+Contact/feedback form
+Hostel facilities information
+About page
+Django Admin Panel
+Database storage for:
+Hostel users
+Profiles
+Bookings
+Contact messages
+Database models
+
+The project contains these main models:
+
+Model	Purpose
+HostelUser	Stores registration/login information
+Profile	Stores student profile details and profile image
+Booking	Stores room/bed booking and payment information
+contact	Stores contact/feedback messages
+
+The Booking model is fairly comprehensive, containing:
+
+First/last name
+Gender
+Date of birth
+Phone/email
+Check-in/check-out
+Room type
+Room number
+Bed number
+ID type/number
+Payment method/reference
+Special requests
+Emergency contact
+Address
+Terms acceptance
+Booking creation timestamp
+Important project structure
+HostelManagement/
+│
+├── manage.py
+├── db.sqlite3
+│
+├── Hostel/
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── views.py
+│   ├── url.py
+│   └── migrations/
+│
+├── HostelManagement/
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── template/
+│   ├── base.html
+│   ├── index.html
+│   ├── signup.html
+│   ├── login.html
+│   ├── booking.html
+│   ├── confirmbooking.html
+│   ├── selectroom.html
+│   ├── profile.html
+│   ├── about.html
+│   ├── facilities.html
+│   ├── facilities1.html
+│   └── contact.html
+│
+├── static/
+│   ├── css/
+│   ├── images/
+│   └── script.js
+│
+└── db.sqlite3
+Good resume description
+
+You can describe this project on your resume as:
+
+Hostel Management System — Developed a full-stack web application using Django, Python, SQLite, HTML, CSS, JavaScript and Bootstrap to manage hostel registration, student profiles, room/bed selection and bookings. Implemented session-based authentication, Django Admin integration, profile image uploads, booking and payment information management, and contact/feedback functionality.
+
+Resume Tech Stack
+
+Python | Django | SQLite | HTML5 | CSS3 | JavaScript | Bootstrap 5 | Django Admin | Git/GitHub
+
+Important issues I noticed
+
+There are also some things in the project that should be improved before presenting it as a production-ready project:
+
+Passwords are stored as plain text in HostelUser.
+The project uses a custom HostelUser instead of Django's built-in authentication system.
+DEBUG = True.
+The Django SECRET_KEY is directly present in settings.py.
+ALLOWED_HOSTS is empty.
+There are __pycache__ files and compiled .pyc files in the ZIP that shouldn't normally be committed.
+db.sqlite3 is included in the project.
+Some older/commented-out code remains in views.py.
+The profile() implementation is not fully tied to the authenticated user.
+Room/bed availability appears to be generated programmatically rather than maintained as database records.
+
+Overall: this is a Django-based Hostel Management web application with authentication, profile management, room/bed booking, payment information, contact management, and Django Admin functionality.
